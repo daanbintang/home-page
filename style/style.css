@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("/image/bg.jpeg");
+  width: 100%;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(33, 8, 73);
+  padding: 4px;
+}
+.logo {
+  text-transform: uppercase;
+}
+.link ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.link li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.left-home {
+  width: 40%;
+  filter: drop-shadow(1px 3px 8px rgb(56, 56, 56, 0.9));
+}
+.right-home {
+  color: #fff;
+  width: 60%;
+}
+.right-home h1 {
+  font-size: 70px;
+  color: #533483;
+  text-shadow: 1px 3px 8px rgb(56, 56, 56, 0.6);
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.right-home h4 {
+  font-size: 30px;
+  text-shadow: 1px 3px 8px rgb(56, 56, 56, 0.6);
+  color: rgb(71, 12, 71);
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+.right-home p {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.right-home button {
+  text-align: center;
+  font-weight: bold;
+  background: pink;
+  padding: 15px;
+  margin-left: 20%;
+  border-radius: 50px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right-home input:hover {
+  transform: scale(1.1);
+  background: #000;
+}
